@@ -1,0 +1,76 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    byebug (8.2.0)
+    coderay (1.1.0)
+    dry-equalizer (0.2.0)
+    ffi (1.9.10)
+    formatador (0.2.5)
+    guard (2.13.0)
+      formatador (>= 0.2.4)
+      listen (>= 2.7, <= 4.0)
+      lumberjack (~> 1.0)
+      nenv (~> 0.1)
+      notiffany (~> 0.0)
+      pry (>= 0.9.12)
+      shellany (~> 0.0)
+      thor (>= 0.18.1)
+    guard-compat (1.2.1)
+    guard-minitest (2.4.4)
+      guard-compat (~> 1.2)
+      minitest (>= 3.0)
+    hashie (3.4.3)
+    hurley (0.2)
+    listen (3.0.5)
+      rb-fsevent (>= 0.9.3)
+      rb-inotify (>= 0.9)
+    lumberjack (1.0.9)
+    method_source (0.8.2)
+    minitest (5.8.3)
+    nenv (0.2.0)
+    notiffany (0.0.8)
+      nenv (~> 0.1)
+      shellany (~> 0.0)
+    pry (0.10.3)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+    rake (10.4.2)
+    rb-fsevent (0.9.6)
+    rb-inotify (0.9.5)
+      ffi (>= 0.5.0)
+    rom (1.0.0.beta2)
+      dry-equalizer (~> 0.2)
+      rom-mapper (~> 0.3.0.beta1)
+      rom-support (~> 1.0.0.beta1)
+    rom-mapper (0.3.0.beta1)
+      dry-equalizer (~> 0.2)
+      rom-support (~> 1.0.0.beta1)
+    rom-support (1.0.0.beta1)
+      dry-equalizer (~> 0.2)
+      transproc (~> 0.4.0)
+      wisper (~> 1.6, >= 1.6.0)
+    shellany (0.0.1)
+    slop (3.6.0)
+    terminal-notifier-guard (1.6.4)
+    thor (0.19.1)
+    transproc (0.4.0)
+    wisper (1.6.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  byebug
+  guard
+  guard-minitest
+  hashie
+  hurley
+  minitest
+  rake
+  rom (= 1.0.0.beta2)
+  rom-mapper (= 0.3.0.beta1)
+  terminal-notifier-guard
+
+BUNDLED WITH
+   1.10.6
